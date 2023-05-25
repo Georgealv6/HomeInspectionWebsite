@@ -28,6 +28,7 @@ li {
   font-family: "Work Sans", sans-serif;
   font-style: italic;
   font-size: 1.15rem;
+  color: white;
 }
 
 i {
@@ -41,7 +42,7 @@ nav {
 /* class elements */
 
 .footer {
-  background-color: rgb(75, 148, 68);
+  background-color: rgb(35, 69, 85);
 }
 
 .hero {
@@ -61,14 +62,14 @@ nav {
 }
 
 .hero-aboutus {
-  background-image: url("../img/Mpi-abtus.jpg");
+  background-color: rgb(35, 69, 85);
   background-size: cover;
   background-repeat: no-repeat;
   height: 75vh;
 }
 
 .container-1 {
-  background-color: rgb(75, 148, 68);
+  background-color: rgb(35, 69, 85);
 }
 
 .resize {
@@ -77,6 +78,17 @@ nav {
   padding-top: 10px;
 }
 
+.resize-img {
+  border-radius: 4px;
+  width: 100vw;
+}
+.dark-text {
+  color: #000;
+}
+
+.white-text {
+  color: white;
+}
 /* carousel */
 
 .carousel {
