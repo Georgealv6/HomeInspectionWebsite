@@ -28,7 +28,6 @@ li {
   font-family: "Work Sans", sans-serif;
   font-style: italic;
   font-size: 1.15rem;
-  color: white;
 }
 
 i {
@@ -58,14 +57,14 @@ nav {
   background-image: url("../img/contact-us.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 75vh;
+  height: 70vh;
 }
 
 .hero-aboutus {
   background-color: rgb(35, 69, 85);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 75vh;
+  height: 65vh;
 }
 
 .container-1 {
@@ -86,9 +85,6 @@ nav {
   color: #000;
 }
 
-.white-text {
-  color: white;
-}
 /* carousel */
 
 .carousel {
