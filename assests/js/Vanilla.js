@@ -17,9 +17,9 @@ animatedLeft.forEach((el) => observer.observe(el));
 const animatedRight = document.querySelectorAll(".fade-right");
 animatedRight.forEach((el) => observer.observe(el));
 
-const animatedIntro = document.querySelectorAll(".title-intro");
-animatedIntro.forEach((el) => observer.observe(el));
+const animatedUp = document.querySelectorAll(".fade-up");
+animatedUp.forEach((el) => observer.observe(el));
 
-const animatedIntro2 = document.querySelectorAll(".title-intro2");
-animatedIntro2.forEach((el) => observer.observe(el));
+const animatedUp2 = document.querySelectorAll(".fade-up2");
+animatedUp2.forEach((el) => observer.observe(el));
 // nav scroll
