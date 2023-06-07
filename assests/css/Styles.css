@@ -168,7 +168,7 @@ form.border-right {
 }
 
 .swiper {
-  width: 80%;
+  width: 90%;
   height: 55vh;
 }
 
@@ -193,4 +193,12 @@ form.border-right {
 
 .swiper .swiper-pagination-bullet-active {
   background-color: rgb(52, 168, 52);
+}
+
+/* image gallery */
+
+.gallery .item {
+  /*width:303px;*/
+  float: left;
+  margin-bottom: 10px;
 }
