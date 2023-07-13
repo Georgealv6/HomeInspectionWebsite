@@ -13,7 +13,6 @@ require "../vendor/autoload.php";
 
 $mail = new PHPMailer(true);
 
-
 $mail->isSMTP();
 $mail->SMTPAuth = true;
 
@@ -21,15 +20,13 @@ $mail->Host = "smtp.example.com";
 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 $mail->Port = 587;
 
-$mail->Username = "you@example.com";
-$mail->Password = "password";
+$mail->Username = "georgealvarado305@gmail.com"; 
+$mail->Password = "nrdqbumvnyrskzbq";
 
 $mail->setFrom($email, $name);
-$mail->addAddress("dave@example.com", "Dave");
+$mail->addAddress("georgealvarado305@gmail.com", "George");
 
 $mail->Subject = $subject;
 $mail->Body = $message;
 
 $mail->send();
-
-header("Location: thankyou.html");

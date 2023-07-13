@@ -25,7 +25,7 @@ animatedUp2.forEach((el) => observer.observe(el));
 
 // slideshow
 
-const swiper = new swiper(".swiper", {
+const swiper = new Swiper(".swiper", {
   autoplay: {
     delay: 5000,
     disableOnInteraction: false,
