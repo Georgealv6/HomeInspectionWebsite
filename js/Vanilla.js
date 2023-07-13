@@ -23,38 +23,9 @@ animatedUp.forEach((el) => observer.observe(el));
 const animatedUp2 = document.querySelectorAll(".fade-up2");
 animatedUp2.forEach((el) => observer.observe(el));
 
-// contact form
-(function () {
-  emailjs.init("bUjUSqA4q278u1hNP");
-})();
-
-function sendEmail() {
-  var params = {
-    fname: document.getElementById("firstname").value,
-    lname: document.getElementById("lastname").value,
-    email: document.getElementById("email").value,
-    message: document.getElementById("message").value,
-  };
-}
-
-const serviceID = "service_jzxkj2e";
-const templateID = "template_v0hbkxg";
-
-emailjs
-  .send(serviceID, templateID, params)
-  .then((res) => {
-    document.getElementById("firstname").value = "";
-    document.getElementById("lastname").value = "";
-    document.getElementById("email").value = "";
-    document.getElementById("message").value = "";
-    console.log(res);
-    alert("your message was sent successfully");
-  })
-  .catch((err) => console.log(err));
-
 // slideshow
 
-const swiper = new Swiper(".swiper", {
+const swiper = new swiper(".swiper", {
   autoplay: {
     delay: 5000,
     disableOnInteraction: false,
